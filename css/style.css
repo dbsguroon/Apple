@@ -1,0 +1,366 @@
+/* 전체 레이아웃 */
+body {
+    font-family: 'Alata', sans-serif;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: #fff;
+}
+
+#se {
+    background-image: url(../img/se.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    height: 600px;
+    background-position: top center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding-top: 3em;
+}
+
+#ipd {
+    text-align: center;
+    margin: 2em;
+    ;
+    padding: 4em 2em;
+}
+
+#macbook {
+    overflow: hidden;
+    margin: 2em;
+    padding: 2em;
+}
+
+#watch {
+    margin-top: 2em;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+
+
+/* 헤더부분 */
+header img {
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0.6em 2em 0.65em;
+}
+
+header .nav {
+    display: inline-block;
+}
+
+header .nav li {
+    display: inline-block;
+}
+
+header .nav li a {
+    display: inline-block;
+    padding: 1.0em 2em 0.65em;
+}
+
+header .icon {
+    display: inline-block;
+    padding: 1.0em 2em 0.65em;
+}
+
+
+/* iphone SE 부분 */
+#se h2 {
+    font-size: 50px;
+}
+
+#se p {
+    margin: 1em 0;
+}
+
+#se p span {
+    display: block;
+}
+
+#se i {
+    display: block;
+}
+
+#se > .wrap > a {
+    display: inline-block;
+    padding: 1.5em;
+    color: aqua;
+    text-decoration: underline;
+}
+
+/* ipad부분 */
+#ipd h2 {
+    font-size: 3rem;
+}
+
+#ipd .wrap > a {
+    display: block;
+    color: dodgerblue;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+
+#ipd .ipad {
+    overflow: hidden;
+}
+
+#ipd .ipad > div {
+    float: left;
+    width: 23%;
+    margin-left: 2%;
+    text-align: left;
+}
+
+#ipd .ipad > div > img {
+    display: block;
+    margin-top: 1.6em;
+}
+
+#ipd .ipad > div > i {
+    display: block;
+    margin: 0.8em 0;
+    font-size: 14px;
+}
+
+#ipd .ipad > div:first-child > img {
+    margin-top: 0.3em;
+}
+
+#ipd .ipad > div:last-child > img {
+    margin-top: 4em;
+}
+
+#ipd .ipad > div > ul > li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 2.5;
+    color: rgb(51, 51, 51);
+}
+
+#ipd .ipad > div > ul > a {
+    color: darkblue;
+    display: block;
+    font-size: 0.8em;
+}
+
+#ipd .ipad > div > ul > a.btn {
+    margin: 7.27em 0 0.8em;
+    color: #fff;
+    width: 70px;
+    height: 20px;
+    background-color: darkblue;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 22px;
+    padding: 5px;
+}
+
+#ipd .ipad > div:first-child > ul > a.btn {
+    margin: 1.8em 0 0.8em;
+}
+
+#ipd .ipad > div:last-child > ul > a.btn {
+    margin: 9.75em 0 0.8em;
+}
+
+/* macbook부분 */
+#macbook .wrap > img {
+    float: right;
+    width: 70%;
+}
+
+#macbook .wrap .txt {
+    float: left;
+    width: 30%;
+    text-align: left;
+}
+
+#macbook .wrap .txt span {
+    color: orangered;
+    font-size: 1.2em;
+}
+
+#macbook .wrap .txt h2 {
+    font-size: 3em;
+}
+
+#macbook .wrap .txt p {
+    font-size: 1.5em;
+}
+
+#macbook .wrap .txt a {
+    color: darkblue;
+    font-size: 1.2em;
+}
+
+#macbook .wrap .txt .btn {
+    margin: 1.5em 0;
+    display: block;
+    width: 70px;
+    height: 20px;
+    background-color: darkblue;
+    border-radius: 22px;
+    font-size: 0.8em;
+    line-height: 20px;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+}
+
+
+/* apple watch */
+#watch div.nikey {
+    display: inline-block;
+    width: 46.8%;
+    height: 680px;
+    background-image: url(../img/applewatch.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    vertical-align: top;
+    margin: 0 1.5% 1% 1.5%;
+    background-position: 0 200px;
+}
+
+#watch div.hermes {
+    display: inline-block;
+    width: 46.8%;
+    height: 680px;
+    background-image: url(../img/applewatch2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    margin: 0 1.5% 1% 1.5%;
+    background-position: 0 200px;
+}
+
+#watch div.nikey > div {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color:#78d5cb;
+}
+
+#watch div > div img{
+    margin: 0.8em 0;
+}
+
+#watch div > div a{
+    display:block;
+    margin-top: 0.8em;
+    color:darkblue;
+}
+
+#watch div > div .button{
+    display:inline-block;
+    width: 70px;
+    height: 20px;
+    font-size:0.8em;
+    background-color:darkblue;
+    border-radius: 22px;
+    text-align: center;
+    padding: 5px;
+    color:#fff;
+}
+
+#watch div.hermes > div {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color:rgba(253, 248, 242, 1);
+}
+
+
+
+
+/*media query */
+@media screen and (max-width:1200px) {
+    .wrap {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    #macbook .wrap > img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #macbook .wrap .txt {
+        width: 100%;
+        text-align: center;
+        margin-top: 1.5em;
+    }
+
+    #macbook .wrap .txt .btn {
+        margin: 1.5em auto;
+    }
+    
+    #watch div.nikey{
+        display:block;
+        width: 100%;
+    }
+    
+    #watch div.hermes{
+        display:block;
+        width: 100%;
+    }
+    
+    
+}
+
+@media screen and (max-width:975px) {
+    header .icon {
+        display: none;
+    }
+
+
+    #ipd {
+        margin: 0;
+    }
+
+    #ipd .ipad > div {
+        width: 48%;
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+
+    #ipd .ipad > div:first-child > img {
+        margin: 0.3em auto 0;
+    }
+
+    #ipd .ipad > div > img {
+        margin: 1.6em auto 0;
+    }
+
+    #ipd .ipad > div:nth-child(odd) {
+        margin-left: 0;
+    }
+
+    #ipd .ipad > div:first-child > ul > a.btn {
+        margin: 1.8em auto 0.8em;
+    }
+
+    #ipd .ipad > div > ul > a.btn {
+        margin: 7.27em auto 0.8em;
+    }
+
+    #ipd .ipad > div:last-child > ul > a.btn {
+        margin: 9.75em auto 0.8em;
+    }
+
+    #macbook {
+        margin: 0;
+    }
+}

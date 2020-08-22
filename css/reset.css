@@ -1,0 +1,8 @@
+body,h1,p,ul,li,h2{padding:0;margin:0;}
+
+
+/* a태그 */
+a{text-decoration: none; color:#fff;}
+
+/* i태그 */
+i{font-style: normal;}
